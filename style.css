@@ -30,6 +30,7 @@ p, h1, h2, h3, h4, h5, h6 {
 /* STYLE */
 body {
     align-items: center;
+    background-color: hsl(0, 0%, 95%);
     display: flex;
     justify-content: center;
     min-height: 100vh;
@@ -76,7 +77,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     margin-bottom: 6rem;
-    max-height: 8rem;
+    height: 8rem;
     opacity: 0.75;
 }
 
@@ -87,7 +88,6 @@ body {
     display: inline-block;
     font-family: 'Lexend Deca', sans-serif;
     font-size: 15px;
-    margin-bottom: 0;
     padding: .75em 1.75em;
 }
 
@@ -113,7 +113,10 @@ body {
     .container {
         flex-direction: column;
         margin: 10vh auto;
-        max-height: 100%;
         max-width: 90%;
+    }
+    .description {
+        height: auto;
+        margin-bottom: 1.5rem;
     }
 }
